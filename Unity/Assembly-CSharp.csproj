@@ -78,6 +78,7 @@
     <Compile Include="Assets\Pathfinder_Clock\Scripts\Tile\Tile.cs" />
     <Compile Include="Assets\Pathfinder_Clock\Scripts\Tile\Wall.cs" />
     <Compile Include="Assets\Pathfinder_Clock\Scripts\TileMapPlayerController.cs" />
+    <Compile Include="Assets\Scripts\Manager\CameraManager.cs" />
     <Compile Include="Assets\Scripts\Manager\ChaosManager.cs" />
     <Compile Include="Assets\Scripts\Manager\ClockManager.cs" />
     <Compile Include="Assets\Scripts\Manager\GameInstance.cs" />
