@@ -26,16 +26,16 @@ public class TileMapPlayerController : MonoBehaviour {
 					if(!(hit.transform.CompareTag("mur")))
                     {
                         //print("Go to" + hit.transform.position);
-                        List<Tile> ShortestPath = Manager.Instance.pathfinder.SearchForShortestPath(gameObject.GetComponent<Player>().playerTile, hit.transform.GetComponent<Tile>());
+                        List<Tile> ShortestPath = LevelManager.Instance.pathfinder.SearchForShortestPath(gameObject.GetComponent<Player>().playerTile, hit.transform.GetComponent<Tile>());
                         foreach(Tile tile in ShortestPath)
                         {
-                            Outline outline;
-                            if (tile.GetComponent<Outline>() == null)
-                                outline = tile.gameObject.AddComponent<Outline>();
+                            Outlines outline;
+                            if (tile.GetComponent<Outlines>() == null)
+                                outline = tile.gameObject.AddComponent<Outlines>();
                             else
-                                outline = tile.GetComponent<Outline>();
+                                outline = tile.GetComponent<Outlines>();
 
-                            outline.OutlineMode = Outline.Mode.OutlineVisible;
+                            outline.OutlineMode = Outlines.Mode.OutlineVisible;
                             outline.OutlineColor = Color.red;
                             outline.OutlineWidth = 7.5f;
                             tile.outlined = true;
@@ -52,7 +52,7 @@ public class TileMapPlayerController : MonoBehaviour {
     {
         foreach(Tile tile in path)
         {
-            Manager.Instance.clock.AddActionToPerform("Move to [" + tile.column + ", " + tile.row + "]");
+            LevelManager.Instance.clock.AddActionToPerform("Move to [" + tile.column + ", " + tile.row + "]");
         }
     }
 }

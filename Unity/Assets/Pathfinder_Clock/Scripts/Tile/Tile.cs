@@ -35,9 +35,9 @@ public class Tile : MonoBehaviour
     {
         if (!(EventSystem.current.IsPointerOverGameObject()) && !outlined)
         {
-            var outline = gameObject.AddComponent<Outline>();
+            var outline = gameObject.AddComponent<Outlines>();
 
-            outline.OutlineMode = Outline.Mode.OutlineVisible;
+            outline.OutlineMode = Outlines.Mode.OutlineVisible;
             outline.OutlineColor = Color.black;
             outline.OutlineWidth = 7.5f;
 
@@ -47,7 +47,7 @@ public class Tile : MonoBehaviour
     void OnMouseExit()
     {
         if(!outlined)
-            Destroy(gameObject.GetComponent<Outline>());
+            Destroy(gameObject.GetComponent<Outlines>());
     }
 
     public float StraightLineDistanceTo(Tile end)
@@ -60,24 +60,24 @@ public class Tile : MonoBehaviour
     {
         List<Tile> res = new List<Tile>();
 
-        if(Manager.Instance.Grid.GetTile(row-1,column) is Free && row !=0)
+        if(LevelManager.Instance.Grid.GetTile(row-1,column) is Free && row !=0)
         {
-            res.Add(Manager.Instance.Grid.GetTile(row - 1, column));
+            res.Add(LevelManager.Instance.Grid.GetTile(row - 1, column));
         }
 
-        if(Manager.Instance.Grid.GetTile(row+1,column) is Free && row != Manager.Instance.Grid.tilemap.GetLength(0))
+        if(LevelManager.Instance.Grid.GetTile(row+1,column) is Free && row != LevelManager.Instance.Grid.tilemap.GetLength(0))
         {
-            res.Add(Manager.Instance.Grid.GetTile(row + 1, column));
+            res.Add(LevelManager.Instance.Grid.GetTile(row + 1, column));
         }
 
-        if(Manager.Instance.Grid.GetTile(row,column-1) is Free && column != 0)
+        if(LevelManager.Instance.Grid.GetTile(row,column-1) is Free && column != 0)
         {
-            res.Add(Manager.Instance.Grid.GetTile(row, column-1));
+            res.Add(LevelManager.Instance.Grid.GetTile(row, column-1));
         }
 
-        if(Manager.Instance.Grid.GetTile(row,column+1) is Free && column != Manager.Instance.Grid.tilemap.GetLength(1))
+        if(LevelManager.Instance.Grid.GetTile(row,column+1) is Free && column != LevelManager.Instance.Grid.tilemap.GetLength(1))
         {
-            res.Add(Manager.Instance.Grid.GetTile(row, column+1));
+            res.Add(LevelManager.Instance.Grid.GetTile(row, column+1));
         }
 
         return res;

@@ -15,7 +15,7 @@ public class Pathfinder : MonoBehaviour
         End = end;
         TileVisited = 0;
 
-        foreach (Tile tile in Manager.Instance.Grid.freeTiles)
+        foreach (Tile tile in LevelManager.Instance.Grid.freeTiles)
         {
             tile.StraightLineDistanceToEnd = tile.StraightLineDistanceTo(end);
         }

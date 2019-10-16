@@ -29,9 +29,9 @@ public class Player : MonoBehaviour {
 
     void OnWouseEnter(){
 
-		var outline = gameObject.AddComponent<Outline>();
+		var outline = gameObject.AddComponent<Outlines>();
 
-		outline.OutlineMode = Outline.Mode.OutlineVisible;
+		outline.OutlineMode = Outlines.Mode.OutlineVisible;
 		outline.OutlineColor = Color.yellow;
 		outline.OutlineWidth = 7.5f;
 

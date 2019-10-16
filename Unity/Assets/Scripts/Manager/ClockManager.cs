@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Clock : MonoBehaviour
+public class ClockManager : MonoBehaviour
 {
+    ClockManager Instance;
+
     List<string> ActionToPerform;
     public float tickInterval = 0.5f;
     void Awake()
     {
+        Instance = this;
+
         ActionToPerform = new List<string>();
         StartCoroutine(Sequencer());
     }
