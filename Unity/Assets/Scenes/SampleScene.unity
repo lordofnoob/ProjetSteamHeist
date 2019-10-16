@@ -3466,7 +3466,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4521,11 +4521,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panSpeed: 35
-  minPanLimitX: 4
-  maxPanLimitX: 61
-  minusPanLimitY: 0
-  maxPanLimitY: 87
-  minHeight: 0
+  minPanLimitX: 3
+  maxPanLimitX: 54
+  minusPanLimitY: 3
+  maxPanLimitY: 54
+  minHeight: 10
   maxHeight: 40
   scrollSpeed: 10
   hasTarget: 0

@@ -18,20 +18,20 @@ public class CameraController : MonoBehaviour {
 
     void Update () {
 
-		Vector3 pos = transform.position;
+		Vector3 pos = transform.localPosition;
 
 		if((Input.GetKey(KeyCode.Z))||(Input.GetKey(KeyCode.Q))||(Input.GetKey(KeyCode.S))||(Input.GetKey(KeyCode.D))){
 			if(Input.GetKey(KeyCode.Z)){
-				pos.x -= panSpeed * Time.deltaTime;
+				pos.z += panSpeed * Time.deltaTime;
 			}
 			if(Input.GetKey(KeyCode.Q)){
-				pos.z -= panSpeed * Time.deltaTime;
+				pos.x -= panSpeed * Time.deltaTime;
 			}
 			if(Input.GetKey(KeyCode.S)){
-				pos.x += panSpeed * Time.deltaTime;
+				pos.z -= panSpeed * Time.deltaTime;
 			}
 			if(Input.GetKey(KeyCode.D)){
-				pos.z += panSpeed * Time.deltaTime;
+				pos.x += panSpeed * Time.deltaTime;
 			}
 			hasTarget = false;
 		}
