@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
                                             { "W", "F", "F", "F", "F", "W", "W", "W", "F", "F", "F", "W", "F", "W", "F", "F", "F", "F", "F", "W"},
                                             { "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"}
                                             };
-
+        grid = gameObject.AddComponent<Grid>();
         grid.BuildGridLevel(array);
     }
 }

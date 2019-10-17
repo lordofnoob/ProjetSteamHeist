@@ -11,6 +11,11 @@ public class GameInstance : MonoBehaviour
         Instance = this;
     }
 
+    void Start()
+    {
+        LevelManager.Instance.InitLevel();
+    }
+
     // Update is called once per frame
     void Update()
     {

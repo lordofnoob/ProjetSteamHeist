@@ -6,12 +6,10 @@ using System.Collections.Generic;
 public class TileMapPlayerController : MonoBehaviour {
 
 	public Camera cam;
-	public CameraController camController;
 
     void Awake()
     {
         cam = FindObjectOfType<Camera>();
-        camController = cam.GetComponent<CameraController>();
     }
 
 	void Update () {

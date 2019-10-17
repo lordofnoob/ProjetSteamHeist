@@ -1304,6 +1304,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &897511431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1234773310826446, guid: bd1085cc3cc1fed469538d03d93adbd8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1437560084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &897511434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897511431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446632ff30dfb9c4380fa71ff65cc11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &920131671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede1eacaa7e4e8341abd8506137f3607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InputController: {fileID: 0}
   panSpeed: 35
   minPanLimitX: 3
   maxPanLimitX: 54

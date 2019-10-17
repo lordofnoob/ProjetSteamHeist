@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class Sc_InputController : MonoBehaviour
 {
     [HideInInspector]
-    private bool Z, Q, S, D;
+    public bool Z, Q, S, D;
+    public float scroll;
+
 
     private void Update()
     {
@@ -13,5 +15,7 @@ public class Controller : MonoBehaviour
         Q = Input.GetKey(KeyCode.Q);
         S = Input.GetKey(KeyCode.S);
         D = Input.GetKey(KeyCode.D);
+
+        scroll = Input.GetAxis("Mouse ScrollWheel");
     }
 }
