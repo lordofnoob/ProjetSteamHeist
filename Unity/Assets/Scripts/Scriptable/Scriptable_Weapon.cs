@@ -6,9 +6,12 @@ using UnityEngine;
 public class Scriptable_Weapon : ScriptableObject
 {
     [Header("Characteristiques")]
-    public int tickParTir;
+    public int tickParSalve;
+    public int tirParSalve;
     public int range;
     public int precision;
+
+
     [Header("Shop")]
     public int price;
 
