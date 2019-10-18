@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Sc_InputController : MonoBehaviour
 {
-    [HideInInspector]
-    public bool Z, Q, S, D;
-    public float scroll;
-
+    [HideInInspector] public bool Z, Q, S, D;
+    [HideInInspector] public float scroll;
 
     private void Update()
     {
