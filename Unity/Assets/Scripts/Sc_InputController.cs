@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sc_InputController : MonoBehaviour
 {
     [HideInInspector] public bool Z, Q, S, D;
+    [HideInInspector] public bool RightClick, LeftClick, MiddleClick;
     [HideInInspector] public float scroll;
 
     private void Update()
@@ -15,5 +16,9 @@ public class Sc_InputController : MonoBehaviour
         D = Input.GetKey(KeyCode.D);
 
         scroll = Input.GetAxis("Mouse ScrollWheel");
+
+        LeftClick = Input.GetMouseButton(0);
+        RightClick = Input.GetMouseButton(1);
+        MiddleClick = Input.GetMouseButton(2);
     }
 }
