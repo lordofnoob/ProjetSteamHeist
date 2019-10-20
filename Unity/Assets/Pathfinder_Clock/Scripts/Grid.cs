@@ -67,4 +67,13 @@ public class Grid : MonoBehaviour
         //print(row + " , " + column);
         return tilemap[row - 1, column - 1];
     }
+
+    public void ResetVisitedTile()
+    {
+        foreach(Tile tile in freeTiles)
+        {
+            if (tile.Visited)
+                tile.Visited = false;
+        }
+    }
 }

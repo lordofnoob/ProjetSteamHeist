@@ -25,8 +25,8 @@ public class Pathfinder : MonoBehaviour
         ShortestPath.Add(end);
         BuildShortestPath(ShortestPath, end);
         ShortestPath.Reverse();
-        print(ShortestPath.Count);
-
+        //print(ShortestPath.Count);
+        LevelManager.Instance.Grid.ResetVisitedTile();
         return ShortestPath;
     }
 

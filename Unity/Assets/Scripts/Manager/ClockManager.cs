@@ -6,13 +6,13 @@ public class ClockManager : MonoBehaviour
 {
     ClockManager Instance;
 
-    List<string> ActionToPerform;
+    List<Sc_Action> ActionToPerform;
     public float tickInterval = 0.5f;
     void Awake()
     {
         Instance = this;
 
-        ActionToPerform = new List<string>();
+        ActionToPerform = new List<Sc_Action>();
         StartCoroutine(Sequencer());
     }
 
@@ -29,12 +29,12 @@ public class ClockManager : MonoBehaviour
     {
         foreach(var action in ActionToPerform)
         {
-            print(action);
+            action.PerformAction(); ;
         }
         ActionToPerform.Clear();
     }
 
-    public void AddActionToPerform(string action)
+    public void AddActionToPerform(Sc_Action action)
     {
         ActionToPerform.Add(action);
     }
