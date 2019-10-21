@@ -9,23 +9,35 @@ public class CameraManager : MonoBehaviour {
     public float panSpeed = 20f;
 	public float minPanLimitX, maxPanLimitX, minusPanLimitY, maxPanLimitY, minHeight, maxHeight;
 	public float scrollSpeed = 15f;
+    private Vector3 pos;
 
+    [Header("Camera Follow Settings")]
 	public bool hasTarget = false;
-	private Vector3 targetOffset = new Vector3(4f,7f,0f);
+	[SerializeField] Vector3 targetOffset = new Vector3(4f,7f,0f);
 	public Transform targetFollow;
 	public float targetSpeed;
 
+    [Header("Scrolling Cam Mouse")]
+    [SerializeField] float scrollingPercentage=.3f;
+    [SerializeField] AnimationCurve scrollingGrowth;
+    float screenWidth;
+    float screenHeight;
+    
+
     private void Awake()
     {
+        screenHeight = Screen.height;
+        screenWidth = Screen.width;
         transform.position = new Vector3(0f, 30f, 0f);
     }
 
     void Update () {
 
-		Vector3 pos = transform.localPosition;
+		pos = transform.localPosition;
 
-		
-		if(InputController.Z){
+        //camera au clavier
+        #region
+        if (InputController.Z){
             hasTarget = false;
             pos.z += panSpeed * Time.deltaTime;
 		}
@@ -41,9 +53,9 @@ public class CameraManager : MonoBehaviour {
             hasTarget = false;
             pos.x += panSpeed * Time.deltaTime;
 		}
-		
+        #endregion
 
-		float scroll = InputController.scroll;
+        float scroll = InputController.scroll;
 		if(!hasTarget){
 			pos.y -= scroll * scrollSpeed * 100 * Time.deltaTime;
 		}else if(hasTarget){
@@ -57,8 +69,9 @@ public class CameraManager : MonoBehaviour {
 		pos.x = Mathf.Clamp(pos.x, minPanLimitX, maxPanLimitX);
 		pos.y = Mathf.Clamp(pos.y, minHeight, maxHeight);
 		pos.z = Mathf.Clamp(pos.z, minusPanLimitY, maxPanLimitY);
+        ScrollingMouse();
 
-		if(!hasTarget){
+        if (!hasTarget){
 			transform.position = pos;
 		}else	if(hasTarget){
 			FollowTarget();
@@ -74,4 +87,32 @@ public class CameraManager : MonoBehaviour {
 		Vector3 targetPos = new Vector3(targetFollow.position.x, 0, targetFollow.position.z) + targetOffset;
 		transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime*targetSpeed);
 	}
+
+    private void ScrollingMouse()
+    {
+        float mouseX = InputController.mousePosition.x;
+        float mouseY = InputController.mousePosition.y;
+
+        if (mouseX < screenWidth*scrollingPercentage)
+        {
+            pos.x += (mouseX - screenWidth * scrollingPercentage) * Time.deltaTime* scrollingGrowth.Evaluate((screenWidth * scrollingPercentage- mouseX)/ screenWidth * scrollingPercentage);
+        }
+        else if (mouseX > screenWidth * (1-scrollingPercentage))
+        {
+             pos.x += (mouseX - screenWidth * (1 - scrollingPercentage)) * Time.deltaTime * scrollingGrowth.Evaluate((mouseX - screenWidth * (1 - scrollingPercentage) )/ screenWidth * scrollingPercentage);
+    
+        }
+
+        if (mouseY < screenHeight * scrollingPercentage)
+        {
+            pos.z += (mouseY - screenHeight * scrollingPercentage) * Time.deltaTime * scrollingGrowth.Evaluate((screenHeight * scrollingPercentage - mouseY) / screenHeight * scrollingPercentage);
+        }
+        else if (mouseY > screenHeight * (1 - scrollingPercentage))
+        {
+            pos.z += (mouseY - screenHeight * (1 - scrollingPercentage)) * Time.deltaTime * scrollingGrowth.Evaluate((mouseY - screenHeight * (1 - scrollingPercentage)) / screenHeight * scrollingPercentage);
+        }
+
+    }
+        
 }
+

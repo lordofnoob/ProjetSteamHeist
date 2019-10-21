@@ -7,6 +7,7 @@ public class Sc_InputController : MonoBehaviour
     public bool Z, Q, S, D;
     public bool RightClick, LeftClick, MiddleClick;
     public float scroll;
+    public Vector2 mousePosition;
 
     private void Update()
     {
@@ -20,5 +21,9 @@ public class Sc_InputController : MonoBehaviour
         LeftClick = Input.GetMouseButton(0);
         RightClick = Input.GetMouseButton(1);
         MiddleClick = Input.GetMouseButton(2);
+
+
+        // MOUSE POS
+        mousePosition = Input.mousePosition;
     }
 }

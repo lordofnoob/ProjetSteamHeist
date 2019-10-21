@@ -1460,8 +1460,34 @@ MonoBehaviour:
   maxHeight: 40
   scrollSpeed: 10
   hasTarget: 0
+  targetOffset: {x: 4, y: 7, z: 0}
   targetFollow: {fileID: 0}
   targetSpeed: 0
+  scrollingPercentage: 0.15
+  scrollingGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1347552267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,6 +1817,7 @@ MonoBehaviour:
   LeftClick: 0
   MiddleClick: 0
   scroll: 0
+  mousePosition: {x: 0, y: 0}
 --- !u!1 &1553610260
 GameObject:
   m_ObjectHideFlags: 0
