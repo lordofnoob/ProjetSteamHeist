@@ -35,19 +35,16 @@ public class Tile : MonoBehaviour
     {
         if (!(EventSystem.current.IsPointerOverGameObject()) && !outlined)
         {
-            var outline = gameObject.AddComponent<Outlines>();
-
-            outline.OutlineMode = Outlines.Mode.OutlineVisible;
-            outline.OutlineColor = Color.black;
-            outline.OutlineWidth = 7.5f;
+            ModifyOutlines(Outlines.Mode.OutlineVisible, Color.black, 7.5f);
+            SetOutlinesEnabled(true);
 
         }
     }
 
     void OnMouseExit()
     {
-        if(!outlined)
-            Destroy(gameObject.GetComponent<Outlines>());
+        if (!outlined)
+            SetOutlinesEnabled(false);
     }
 
     public float StraightLineDistanceTo(Tile end)
@@ -82,4 +79,19 @@ public class Tile : MonoBehaviour
 
         return res;
     }
+
+    void ModifyOutlines(Outlines.Mode mode, Color color, float width)
+    {
+        Outlines outline = gameObject.GetComponent<Outlines>();
+        outline.OutlineMode = mode;
+        outline.OutlineColor = color;
+        outline.OutlineWidth = width;
+    }
+
+    void SetOutlinesEnabled(bool enabled)
+    {
+        Outlines outline = gameObject.GetComponent<Outlines>();
+        outline.enabled = enabled;
+    }
+
 }

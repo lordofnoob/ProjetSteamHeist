@@ -6,40 +6,61 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
 
 	public GameObject player;
-	public bool MainPlayer;
-	public float health;
-	public float MaxHealth;
+	public bool isSelected { 
+        set
+        {
+            switch (value)
+            {
+                case true:
+                    ModifyOutlines(Outlines.Mode.OutlineVisible, Color.yellow, 7.5f);
+                    SetOutlinesEnabled(true);
+                    break;
+                case false:
+                    SetOutlinesEnabled(false);
+                    break;
+            }
+        }
+        get
+        {
+            return gameObject.GetComponent<Outlines>().enabled;
+        }
+    }
 
     public Tile playerTile;
 
-	public Image currentHealthBar;
-	public Text healthBarText;
+	void Start () 
+    {
 
-	void Start () {
-
-		health = MaxHealth;
 	}
 
     // Update is called once per fraWe
-    void Update () {
-
-
-
-	}
-
-    void OnWouseEnter(){
-
-		var outline = gameObject.AddComponent<Outlines>();
-
-		outline.OutlineMode = Outlines.Mode.OutlineVisible;
-		outline.OutlineColor = Color.yellow;
-		outline.OutlineWidth = 7.5f;
+    void Update () 
+    {
 
 	}
 
-    void OnWouseExit(){
+    void OnMouseEnter()
+    {
+        isSelected = true;
+    }
 
-		Destroy(gameObject.GetComponent<Outline>());
+    void OnMouseExit()
+    {
+        if (!isSelected)
+            isSelected = true;
+    }
 
-	}
+    void ModifyOutlines(Outlines.Mode mode, Color color, float width)
+    {
+        Outlines outline = gameObject.GetComponent<Outlines>();
+        outline.OutlineMode = mode;
+        outline.OutlineColor = color;
+        outline.OutlineWidth = width;
+    }
+
+    void SetOutlinesEnabled(bool enabled)
+    {
+        Outlines outline = gameObject.GetComponent<Outlines>();
+        outline.enabled = enabled;
+    }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -34,29 +35,19 @@ public class PlayerManager : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit))
                 {
-                    if (hit.transform.CompareTag("Tile"))
+                    if (hit.transform.CompareTag("Tile") && selectedPlayer != null)
                     {
-                        //print("Go to" + hit.transform.position);
-                        List<Tile> ShortestPath = LevelManager.Instance.pathfinder.SearchForShortestPath(GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().playerTile, hit.transform.GetComponent<Tile>());
-                        foreach (Tile tile in ShortestPath)
-                        {
-                            Outlines outline;
-                            if (tile.GetComponent<Outlines>() == null)
-                                outline = tile.gameObject.AddComponent<Outlines>();
-                            else
-                                outline = tile.GetComponent<Outlines>();
+                        hit.point += new Vector3(LevelManager.Instance.FreePrefab.transform.localScale.x / 2, 0f, LevelManager.Instance.FreePrefab.transform.localScale.x / 2);
 
-                            outline.OutlineMode = Outlines.Mode.OutlineVisible;
-                            outline.OutlineColor = Color.red;
-                            outline.OutlineWidth = 7.5f;
-                            tile.outlined = true;
-                        }
+                        Vector3 gridPos = Vector3.zero;
+                        gridPos.x = Mathf.Floor(hit.point.x / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
+                        gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
 
-                        MovePlayer(ShortestPath);
+                        MovePlayer(selectedPlayer, gridPos);
                     }
                     else if (hit.transform.CompareTag("Player"))
                     {
-                        //SelectPlayer(Player p);
+                        SelectPlayer(hit.transform.GetComponent<Player>());
                     }
                 }
             }
@@ -66,11 +57,14 @@ public class PlayerManager : MonoBehaviour
     public void SelectPlayer(Player p)
     {
         selectedPlayer = p;
+        p.isSelected = true;
     }
 
-    public void MovePlayer(List<Tile> path)
+    public void MovePlayer(Player p, Vector3 endPos)
     {
         print("Move");
-        LevelManager.Instance.clock.AddActionToPerform(new Sc_Deplacement(TickPerTileSpeed, GameObject.FindGameObjectWithTag("Player").GetComponent<Player>(), path));
+        p.transform.GetComponent<NavMeshAgent>().SetDestination(endPos);
+        selectedPlayer.isSelected = false;
+        selectedPlayer = null;
     }
 }

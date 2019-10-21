@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 23691042456720532}
   - component: {fileID: 65674349208408934}
   - component: {fileID: 114353337614512000}
-  m_Layer: 0
-  m_Name: Mur
+  - component: {fileID: -4780213482630193181}
+  - component: {fileID: 2221858900451399833}
+  m_Layer: 10
+  m_Name: Wall
   m_TagString: mur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,3 +115,37 @@ MonoBehaviour:
   MinCostToStart: 0
   Visited: 0
   previous: {fileID: 0}
+--- !u!114 &-4780213482630193181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997135797365634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
+--- !u!114 &2221858900451399833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997135797365634}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
