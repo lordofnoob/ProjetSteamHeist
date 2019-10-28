@@ -6,23 +6,29 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
 
 	public GameObject player;
-	public bool isSelected { 
+    public Color highlightedColor, selectedColor;
+
+    public bool highlighted = false;
+    [SerializeField]private bool isSelected = false;
+	public bool IsSelected { 
         set
         {
             switch (value)
             {
                 case true:
-                    ModifyOutlines(Outlines.Mode.OutlineVisible, Color.yellow, 7.5f);
+                    isSelected = true;
+                    ModifyOutlines(Outlines.Mode.OutlineAll, selectedColor, 7.5f);
                     SetOutlinesEnabled(true);
                     break;
                 case false:
+                    isSelected = false;
                     SetOutlinesEnabled(false);
                     break;
             }
         }
         get
         {
-            return gameObject.GetComponent<Outlines>().enabled;
+            return isSelected;
         }
     }
 
@@ -41,13 +47,22 @@ public class Player : MonoBehaviour {
 
     void OnMouseEnter()
     {
-        isSelected = true;
+        highlighted = true;
+        ModifyOutlines(Outlines.Mode.OutlineVisible, highlightedColor, 7.5f);
+        SetOutlinesEnabled(true);
     }
 
     void OnMouseExit()
     {
-        if (!isSelected)
-            isSelected = true;
+        if (IsSelected)
+        {
+            ModifyOutlines(Outlines.Mode.OutlineVisible, selectedColor, 7.5f);
+        }
+        else
+        {
+            SetOutlinesEnabled(false);
+        }
+        highlighted = false;
     }
 
     void ModifyOutlines(Outlines.Mode mode, Color color, float width)

@@ -47,7 +47,11 @@ public class PlayerManager : MonoBehaviour
                     }
                     else if (hit.transform.CompareTag("Player"))
                     {
-                        SelectPlayer(hit.transform.GetComponent<Player>());
+                        Player p = hit.transform.GetComponent<Player>();
+                        if (p != selectedPlayer)
+                            SelectPlayer(p);
+                        else
+                            DeselectPlayer();
                     }
                 }
             }
@@ -56,15 +60,25 @@ public class PlayerManager : MonoBehaviour
 
     public void SelectPlayer(Player p)
     {
+        Debug.Log("SELECT PLAYER");
+        if (selectedPlayer != null)
+            selectedPlayer.IsSelected = false;
         selectedPlayer = p;
-        p.isSelected = true;
+        p.IsSelected = true;
+    }
+
+    public void DeselectPlayer()
+    {
+        Debug.Log("DESELECT PLAYER");
+        selectedPlayer.IsSelected = false;
+        selectedPlayer = null;
     }
 
     public void MovePlayer(Player p, Vector3 endPos)
     {
         print("Move");
         p.transform.GetComponent<NavMeshAgent>().SetDestination(endPos);
-        selectedPlayer.isSelected = false;
-        selectedPlayer = null;
+        //selectedPlayer.isSelected = false;
+        //selectedPlayer = null;
     }
 }

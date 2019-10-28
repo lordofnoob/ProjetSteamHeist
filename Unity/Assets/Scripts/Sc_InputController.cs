@@ -18,9 +18,9 @@ public class Sc_InputController : MonoBehaviour
 
         scroll = Input.GetAxis("Mouse ScrollWheel");
 
-        LeftClick = Input.GetMouseButton(0);
-        RightClick = Input.GetMouseButton(1);
-        MiddleClick = Input.GetMouseButton(2);
+        LeftClick = Input.GetMouseButtonDown(0);
+        RightClick = Input.GetMouseButtonDown(1);
+        MiddleClick = Input.GetMouseButtonDown(2);
 
 
         // MOUSE POS

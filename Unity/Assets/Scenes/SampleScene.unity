@@ -37002,6 +37002,11 @@ PrefabInstance:
       propertyPath: clock
       value: 
       objectReference: {fileID: 53675792}
+    - target: {fileID: 114010521194120620, guid: bd1085cc3cc1fed469538d03d93adbd8,
+        type: 3}
+      propertyPath: navMeshSurface
+      value: 
+      objectReference: {fileID: 897511435}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
 --- !u!1 &1438251424

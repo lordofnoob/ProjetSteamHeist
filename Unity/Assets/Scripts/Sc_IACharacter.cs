@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IAManager : MonoBehaviour
+public class Sc_IACharacter : MonoBehaviour
 {
-    IAManager Instance;
-
-    public List<Sc_IACharacter> IAList = new List<Sc_IACharacter>();
-
-    void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
-        Instance = this;
+        
     }
 
     // Update is called once per frame

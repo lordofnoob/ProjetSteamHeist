@@ -99,12 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1135487730203022}
-  MainPlayer: 0
-  health: 0
-  MaxHealth: 0
+  highlightedColor: {r: 1, g: 0.92445683, b: 0, a: 1}
+  selectedColor: {r: 1, g: 0, b: 0, a: 1}
   playerTile: {fileID: 0}
-  currentHealthBar: {fileID: 0}
-  healthBarText: {fileID: 0}
 --- !u!195 &-4362874601815841982
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class LevelManager : MonoBehaviour
 
     public Pathfinder pathfinder;
     public ClockManager clock;
+    public NavMeshSurface navMeshSurface;
 
     private Grid grid;
     public Grid Grid { get { return grid; } }
@@ -26,8 +28,8 @@ public class LevelManager : MonoBehaviour
         //TO CHANGE
         string[,] array = new string[,]{    { "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"},
                                             { "W", "F", "F", "F", "F", "W", "F", "F", "F", "W", "F", "F", "F", "F", "F", "F", "F", "F", "F", "W"},
-                                            { "W", "F", "W", "W", "F", "W", "F", "W", "F", "W", "F", "W", "W", "F", "W", "F", "W", "W", "F", "W"},
-                                            { "W", "F", "F", "W", "F", "W", "W", "W", "F", "W", "F", "W", "F", "F", "W", "F", "F", "W", "F", "W"},
+                                            { "W", "F", "F", "F", "F", "W", "F", "W", "F", "W", "F", "W", "W", "F", "W", "F", "P", "P", "F", "W"},
+                                            { "W", "F", "F", "F", "F", "W", "W", "W", "F", "W", "F", "W", "F", "F", "W", "F", "W", "W", "F", "W"},
                                             { "W", "W", "F", "W", "W", "W", "W", "F", "F", "F", "F", "W", "W", "W", "W", "W", "F", "F", "F", "W"},
                                             { "W", "F", "F", "F", "W", "F", "W", "W", "F", "W", "F", "F", "F", "W", "F", "W", "W", "W", "F", "W"},
                                             { "W", "F", "W", "F", "W", "F", "F", "W", "F", "F", "F", "W", "F", "F", "F", "F", "W", "F", "F", "W"},
@@ -39,13 +41,14 @@ public class LevelManager : MonoBehaviour
                                             { "W", "F", "F", "F", "F", "F", "F", "W", "W", "W", "F", "W", "F", "F", "F", "F", "F", "F", "F", "W"},
                                             { "W", "F", "W", "W", "W", "W", "F", "F", "F", "W", "F", "W", "F", "W", "W", "W", "W", "W", "F", "W"},
                                             { "W", "F", "F", "F", "F", "W", "W", "W", "F", "F", "F", "W", "F", "W", "F", "F", "F", "W", "F", "W"},
-                                            { "W", "F", "W", "W", "F", "W", "F", "P", "F", "W", "F", "F", "F", "W", "F", "W", "F", "W", "F", "W"},
-                                            { "W", "F", "F", "W", "W", "W", "F", "W", "W", "W", "F", "W", "W", "W", "F", "W", "F", "F", "F", "W"},
-                                            { "W", "W", "F", "W", "F", "F", "F", "F", "F", "W", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W"},
-                                            { "W", "F", "F", "F", "F", "W", "W", "W", "F", "F", "F", "W", "F", "W", "F", "F", "F", "F", "F", "W"},
+                                            { "W", "F", "W", "W", "W", "W", "F", "F", "F", "W", "F", "F", "F", "W", "F", "W", "F", "W", "F", "W"},
+                                            { "W", "F", "F", "F", "W", "W", "F", "W", "W", "W", "F", "W", "W", "W", "F", "W", "F", "F", "F", "W"},
+                                            { "W", "F", "F", "F", "W", "F", "F", "F", "F", "W", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W"},
+                                            { "W", "F", "F", "F", "F", "F", "W", "W", "F", "F", "F", "W", "F", "W", "F", "F", "F", "F", "F", "W"},
                                             { "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"}
                                             };
         grid = gameObject.AddComponent<Grid>();
         grid.BuildGridLevel(array);
+        navMeshSurface.BuildNavMesh();
     }
 }
