@@ -11,7 +11,6 @@ public class LevelManager : MonoBehaviour
     public GameObject FreePrefab;
     public GameObject PlayerPrefab;
 
-    public Pathfinder pathfinder;
     public ClockManager clock;
     public NavMeshSurface navMeshSurface;
 
