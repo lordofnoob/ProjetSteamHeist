@@ -5,12 +5,17 @@ Cmd: preprocess
 Cmd: preprocess
   insize=3652 outsize=1674 ok=1
 Cmd: preprocess
+<<<<<<< HEAD
   insize=582 outsize=579 ok=1
 Cmd: preprocess
   insize=3606 outsize=1310 ok=1
 Cmd: preprocess
   insize=1964 outsize=818 ok=1
 Cmd: preprocess
+=======
+  insize=3606 outsize=1310 ok=1
+Cmd: preprocess
+>>>>>>> master
   insize=10875 outsize=4001 ok=1
 Cmd: preprocess
   insize=3615 outsize=2669 ok=1

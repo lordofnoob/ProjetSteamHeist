@@ -104,7 +104,11 @@
     <Compile Include="Assets\Scripts\Tile\Wall.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+<<<<<<< HEAD
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
+=======
+    <None Include="Assets\Scripts\Outline\Readme.txt" />
+>>>>>>> master
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -116,7 +120,10 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+<<<<<<< HEAD
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
+=======
+>>>>>>> master
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Scripts\Outline\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
