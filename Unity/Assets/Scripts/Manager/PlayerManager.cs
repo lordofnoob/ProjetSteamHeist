@@ -35,6 +35,27 @@ public class PlayerManager : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit))
                 {
+                    if (hit.transform.CompareTag("Player"))
+                    {
+                        Player p = hit.transform.GetComponent<Player>();
+                        if (p != selectedPlayer)
+                            SelectPlayer(p);
+                    }
+                    else
+                        DeselectPlayer();
+                }
+            }
+        }
+        
+        if (InputController.RightClick)
+        {
+            if (!(EventSystem.current.IsPointerOverGameObject()))
+            {
+                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
+                {
                     if (hit.transform.CompareTag("Tile") && selectedPlayer != null)
                     {
                         hit.point += new Vector3(LevelManager.Instance.FreePrefab.transform.localScale.x / 2, 0f, LevelManager.Instance.FreePrefab.transform.localScale.x / 2);
@@ -43,15 +64,23 @@ public class PlayerManager : MonoBehaviour
                         gridPos.x = Mathf.Floor(hit.point.x / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
                         gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
 
-                        MovePlayer(selectedPlayer, gridPos);
+                        selectedPlayer.MovePlayer(gridPos);
                     }
-                    else if (hit.transform.CompareTag("Player"))
+                    if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null)
                     {
-                        Player p = hit.transform.GetComponent<Player>();
-                        if (p != selectedPlayer)
-                            SelectPlayer(p);
+                        Vector3 positionToAccomplishDuty = Vector3.zero;
+
+                        Mb_Trial  targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
+                        if (targetTrial.listOfUser.Count > 0)
+                        {
+                           positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+                        }
                         else
-                            DeselectPlayer();
+                        {
+                            positionToAccomplishDuty = targetTrial.positionToGo[0].position;
+                        }
+                        selectedPlayer.MovePlayer(positionToAccomplishDuty);
+                        selectedPlayer.SetNextInteraction(targetTrial);
                     }
                 }
             }
@@ -74,11 +103,5 @@ public class PlayerManager : MonoBehaviour
         selectedPlayer = null;
     }
 
-    public void MovePlayer(Player p, Vector3 endPos)
-    {
-        print("Move");
-        p.transform.GetComponent<NavMeshAgent>().SetDestination(endPos);
-        //selectedPlayer.isSelected = false;
-        //selectedPlayer = null;
-    }
+
 }

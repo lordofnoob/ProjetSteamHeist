@@ -8,6 +8,12 @@ public class Sc_InputController : MonoBehaviour
     public bool RightClick, LeftClick, MiddleClick;
     public float scroll;
     public Vector2 mousePosition;
+    public static Sc_InputController inputControler;
+
+    private void Awake()
+    {
+        inputControler = this;
+    }
 
     private void Update()
     {

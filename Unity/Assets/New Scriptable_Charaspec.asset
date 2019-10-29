@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: 
   characterPortrait: {fileID: 0}
-  charaSkills: []
+  speed: 5
+  characterSkills: 0300000003000000

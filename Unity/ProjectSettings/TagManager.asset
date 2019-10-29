@@ -6,6 +6,7 @@ TagManager:
   tags:
   - mur
   - Tile
+  - Trial
   layers:
   - Default
   - TransparentFX
