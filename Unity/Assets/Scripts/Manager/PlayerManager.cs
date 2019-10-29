@@ -81,6 +81,7 @@ public class PlayerManager : MonoBehaviour
             }
             
         }
+
     }
 
     public void SelectPlayer(Player p)

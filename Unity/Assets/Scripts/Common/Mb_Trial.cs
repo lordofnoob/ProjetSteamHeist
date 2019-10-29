@@ -70,14 +70,7 @@ public class Mb_Trial : MonoBehaviour
     {
         Counting();
 
-        //A VIRER
-        // A VIRER 
-        if (Input.GetKey(KeyCode.P)) 
-        {
-            StartInteracting();
-        }
-        //A VIRER
-        // A VIRER 
+
     }
 
     void DoThings()
