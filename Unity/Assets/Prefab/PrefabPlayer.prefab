@@ -122,8 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterProperty: {fileID: 11400000, guid: 757fbff6231fc4447808ba7daf7cee53, type: 2}
   player: {fileID: 4571570725775537732}
-  highlightedColor: {r: 1, g: 0.94165385, b: 0, a: 0.41960785}
-  selectedColor: {r: 1, g: 0, b: 0, a: 0.60784316}
+  highlightedColor: {r: 1, g: 0.73647493, b: 0, a: 0.50980395}
+  selectedColor: {r: 1, g: 0.47614014, b: 0, a: 0.7921569}
   highlighted: 0
   isSelected: 0
   agent: {fileID: -4362874601815841982}
@@ -173,7 +173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395959740799648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.07, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4042549731401278}

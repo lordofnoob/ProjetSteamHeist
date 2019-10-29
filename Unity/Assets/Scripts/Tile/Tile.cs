@@ -33,7 +33,7 @@ public class Tile : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (!(EventSystem.current.IsPointerOverGameObject()) && !outlined)
+        if (!outlined)
         {
             ModifyOutlines(Outlines.Mode.OutlineVisible, Color.black, 7.5f);
             SetOutlinesEnabled(true);

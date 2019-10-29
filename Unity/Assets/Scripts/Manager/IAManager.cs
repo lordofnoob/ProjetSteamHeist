@@ -6,7 +6,7 @@ public class IAManager : MonoBehaviour
 {
     public static IAManager Instance;
 
-    public List<Sc_IACharacter> IAList = new List<Sc_IACharacter>();
+    public List<Sc_IAOstage> IAList = new List<Sc_IAOstage>();
     public List<Mb_Trial> OstageArea = new List<Mb_Trial>();
 
     public float repeatActionInterval = 3f;
@@ -22,7 +22,7 @@ public class IAManager : MonoBehaviour
     {
         if(timer >= repeatActionInterval)
         {
-            foreach(Sc_IACharacter IACharacter in IAList)
+            foreach(Sc_IAOstage IACharacter in IAList)
             {
                 IACharacter.RandomMovement();
             }

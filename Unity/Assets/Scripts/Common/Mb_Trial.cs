@@ -55,15 +55,16 @@ public class Mb_Trial : MonoBehaviour
         counting = true;
     }
 
-    void Counting()
+    public void Counting()
     {
-        if(counting==true)
+
+        if (counting==true)
             currentTimeSpentOn += Time.deltaTime * listOfUser.Count;
 
         if (currentTimeSpentOn > finalTimeToSpendOn)
         {
-            ResetValues();
             DoThings();
+            ResetValues();
         }
 
         timeVignet.fillAmount = currentTimeSpentOn / finalTimeToSpendOn;
@@ -98,19 +99,10 @@ public class Mb_Trial : MonoBehaviour
     private void Update()
     {
         Counting();
-
-
     }
 
-    void DoThings()
-    {
-        for (int i=0; i< listOfUser.Count; i++)
-        {
-            listOfUser[i].state = Player.StateOfAction.Idle;
-        }
-        listOfUser.Clear();
-        Debug.Log("si si finito");
-    }
+    public virtual void DoThings()
+    {}
 
     void ResetValues()
     {
@@ -119,8 +111,10 @@ public class Mb_Trial : MonoBehaviour
         definitiveModifier = 1;
         foreach (Player player in listOfUser)
         {
+            player.state = Player.StateOfAction.Idle;
             player.ResetInteractionParameters();
         }
+        listOfUser.Clear();
 
         finalTimeToSpendOn = trialParameters.timeToAccomplishTrial;
     }

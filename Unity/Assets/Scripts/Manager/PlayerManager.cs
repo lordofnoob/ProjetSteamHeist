@@ -9,14 +9,13 @@ public class PlayerManager : MonoBehaviour
     PlayerManager Instance;
 
     public Sc_InputController InputController;
-    public Camera cam;
 
     public Player selectedPlayer = null;
     public int TickPerTileSpeed = 4;
 
     void Awake()
     {
-        cam = FindObjectOfType<Camera>();
+
     }
 
     void Update()
@@ -28,7 +27,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (InputController.LeftClick)
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            Ray ray = CameraManager.Instance.mainCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit))
@@ -47,7 +46,7 @@ public class PlayerManager : MonoBehaviour
         
         if (InputController.RightClick)
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            Ray ray = CameraManager.Instance.mainCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit))

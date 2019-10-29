@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 
-public class CameraManager : MonoBehaviour {
+public class CameraManager : MonoBehaviour 
+{
+
+    public static CameraManager Instance;
 
     [Header("Input Controller")]
     public Sc_InputController InputController;
 
     [Header("Camera Settings")]
+    public Camera mainCam;
     public float panSpeed = 20f;
 	public float minPanLimitX, maxPanLimitX, minusPanLimitY, maxPanLimitY, minHeight, maxHeight;
 	public float scrollSpeed = 15f;
@@ -26,6 +30,8 @@ public class CameraManager : MonoBehaviour {
 
     private void Awake()
     {
+        Instance = this;
+        mainCam = FindObjectOfType<Camera>();
         screenHeight = Screen.height;
         screenWidth = Screen.width;
         transform.position = new Vector3(0f, 30f, 0f);
@@ -33,7 +39,7 @@ public class CameraManager : MonoBehaviour {
 
     void Update () {
 
-		pos = transform.localPosition;
+		pos = mainCam.transform.localPosition;
 
         //camera au clavier
         #region
@@ -72,7 +78,7 @@ public class CameraManager : MonoBehaviour {
         ScrollingMouse();
 
         if (!hasTarget){
-			transform.position = pos;
+			mainCam.transform.position = pos;
 		}else	if(hasTarget){
 			FollowTarget();
 		}

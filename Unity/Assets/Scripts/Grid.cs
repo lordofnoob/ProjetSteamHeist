@@ -52,8 +52,8 @@ public class Grid : MonoBehaviour
                         newTile.column = column;
                         //Spawn player
                         GameObject IA = Instantiate(LevelManager.Instance.IAPrefab, new Vector3(position.x, 0.5f, position.z), new Quaternion(0f, 0f, 0f, 0f));
-                        IA.GetComponent<Sc_IACharacter>().IATile = newTile;
-                        IAManager.Instance.IAList.Add(IA.GetComponent<Sc_IACharacter>());
+                        IA.GetComponent<Sc_IAOstage>().IATile = newTile;
+                        IAManager.Instance.IAList.Add(IA.GetComponent<Sc_IAOstage>());
                         freeTiles.Add(newTile);
                         break;
                 }
