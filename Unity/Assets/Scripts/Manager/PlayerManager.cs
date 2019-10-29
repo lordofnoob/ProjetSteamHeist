@@ -52,7 +52,7 @@ public class PlayerManager : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.CompareTag("Tile") && selectedPlayer != null)
+                if (hit.transform.CompareTag("Tile") && selectedPlayer != null && selectedPlayer.state != Player.StateOfAction.Captured)
                 {
                     hit.point += new Vector3(LevelManager.Instance.FreePrefab.transform.localScale.x / 2, 0f, LevelManager.Instance.FreePrefab.transform.localScale.x / 2);
 
@@ -61,8 +61,9 @@ public class PlayerManager : MonoBehaviour
                     gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
 
                     selectedPlayer.MovePlayer(gridPos);
+                    selectedPlayer.state = Player.StateOfAction.Moving;
                 }
-                if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null)
+                else if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null && selectedPlayer.state != Player.StateOfAction.Captured && selectedPlayer.state!= Player.StateOfAction.Interacting)
                 {
                     Vector3 positionToAccomplishDuty = Vector3.zero;
 

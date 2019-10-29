@@ -103,7 +103,7 @@ public class Player : MonoBehaviour {
                 if (onGoingInteraction.listOfUser[i] != player)
                 {
                     onGoingInteraction.listOfUser.Add(player);
-                    onGoingInteraction.StartInteracting();
+                    onGoingInteraction.ReUpduateTiming();
                 }
             }
     }
@@ -119,8 +119,8 @@ public class Player : MonoBehaviour {
     {
         if (Vector3.Distance(transform.position, positionToGo) <= agent.stoppingDistance && onGoingInteraction != null && state == StateOfAction.Moving)
         {
-
-            Interact();
+            
+                Interact();
         }
     }
 

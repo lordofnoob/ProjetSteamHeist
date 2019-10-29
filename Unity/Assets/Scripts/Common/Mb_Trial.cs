@@ -69,6 +69,32 @@ public class Mb_Trial : MonoBehaviour
         timeVignet.fillAmount = currentTimeSpentOn / finalTimeToSpendOn;
     }
 
+    public void ReUpduateTiming()
+    {
+        foreach (Player player in listOfUser)
+        {
+            Debug.Log(player.characterProperty);
+            int length = player.characterProperty.characterSkills.Length;
+            Debug.Log(length);
+            for (int i = 0; i < player.characterProperty.characterSkills.Length; i++)
+                for (int y = 0; y < trialParameters.skillToUse.Length; y++)
+                    if (player.characterProperty.characterSkills[i] == trialParameters.skillToUse[y].associatedSkill)
+                    {
+                        if (definitiveModifier > (1 - trialParameters.skillToUse[y].associatedReduction))
+                        {
+                            definitiveModifier = (1 - trialParameters.skillToUse[y].associatedReduction);
+                        }
+                        else if (definitiveModifier <= (definitiveModifier - trialParameters.skillToUse[y].associatedReduction) && definitiveModifier >= 1)
+                        {
+                            definitiveModifier = (1 - trialParameters.skillToUse[y].associatedReduction);
+                        }
+
+                    }
+        }
+        finalTimeToSpendOn = trialParameters.timeToAccomplishTrial * definitiveModifier;
+        counting = true;
+    }
+
     private void Update()
     {
         Counting();
@@ -78,6 +104,11 @@ public class Mb_Trial : MonoBehaviour
 
     void DoThings()
     {
+        for (int i=0; i< listOfUser.Count; i++)
+        {
+            listOfUser[i].state = Player.StateOfAction.Idle;
+        }
+        listOfUser.Clear();
         Debug.Log("si si finito");
     }
 
