@@ -28,62 +28,58 @@ public class PlayerManager : MonoBehaviour
     {
         if (InputController.LeftClick)
         {
-            if (!(EventSystem.current.IsPointerOverGameObject()))
-            {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
 
-                if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.transform.CompareTag("Player"))
                 {
-                    if (hit.transform.CompareTag("Player"))
-                    {
-                        Player p = hit.transform.GetComponent<Player>();
-                        if (p != selectedPlayer)
-                            SelectPlayer(p);
-                    }
-                    else
-                        DeselectPlayer();
+                    Player p = hit.transform.GetComponent<Player>();
+                    if (p != selectedPlayer)
+                        SelectPlayer(p);
                 }
+                else
+                    DeselectPlayer();
             }
+            
         }
         
         if (InputController.RightClick)
         {
-            if (!(EventSystem.current.IsPointerOverGameObject()))
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit))
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit))
+                if (hit.transform.CompareTag("Tile") && selectedPlayer != null)
                 {
-                    if (hit.transform.CompareTag("Tile") && selectedPlayer != null)
+                    hit.point += new Vector3(LevelManager.Instance.FreePrefab.transform.localScale.x / 2, 0f, LevelManager.Instance.FreePrefab.transform.localScale.x / 2);
+
+                    Vector3 gridPos = Vector3.zero;
+                    gridPos.x = Mathf.Floor(hit.point.x / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
+                    gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
+
+                    selectedPlayer.MovePlayer(gridPos);
+                }
+                if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null)
+                {
+                    Vector3 positionToAccomplishDuty = Vector3.zero;
+
+                    Mb_Trial  targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
+                    if (targetTrial.listOfUser.Count > 0)
                     {
-                        hit.point += new Vector3(LevelManager.Instance.FreePrefab.transform.localScale.x / 2, 0f, LevelManager.Instance.FreePrefab.transform.localScale.x / 2);
-
-                        Vector3 gridPos = Vector3.zero;
-                        gridPos.x = Mathf.Floor(hit.point.x / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
-                        gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
-
-                        selectedPlayer.MovePlayer(gridPos);
+                        positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
                     }
-                    if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null)
+                    else
                     {
-                        Vector3 positionToAccomplishDuty = Vector3.zero;
-
-                        Mb_Trial  targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
-                        if (targetTrial.listOfUser.Count > 0)
-                        {
-                           positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
-                        }
-                        else
-                        {
-                            positionToAccomplishDuty = targetTrial.positionToGo[0].position;
-                        }
-                        selectedPlayer.MovePlayer(positionToAccomplishDuty);
-                        selectedPlayer.SetNextInteraction(targetTrial);
+                        positionToAccomplishDuty = targetTrial.positionToGo[0].position;
                     }
+                    selectedPlayer.MovePlayer(positionToAccomplishDuty);
+                    selectedPlayer.SetNextInteraction(targetTrial);
                 }
             }
+            
         }
     }
 
