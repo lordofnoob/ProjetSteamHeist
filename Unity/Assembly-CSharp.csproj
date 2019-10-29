@@ -327,7 +327,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/Unity/Projects/ProjetSteamHeist/Unity/Assets/Plug-in &amp; package/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/ProjetSteamHeist/Unity/Assets/Plug-in &amp; package/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
