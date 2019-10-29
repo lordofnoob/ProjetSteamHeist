@@ -247,9 +247,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1640165526}
   m_PrefabAsset: {fileID: 0}
---- !u!195 &831460013 stripped
+--- !u!195 &326443579 stripped
 NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 2508402723866342856, guid: 0b88953633527ee46865274cc91a81a3,
+  m_CorrespondingSourceObject: {fileID: 5597134787657555195, guid: 0b88953633527ee46865274cc91a81a3,
     type: 3}
   m_PrefabInstance: {fileID: 1640165526}
   m_PrefabAsset: {fileID: 0}
@@ -471,6 +471,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: testfab
       objectReference: {fileID: 0}
+    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.77
+      objectReference: {fileID: 0}
     - target: {fileID: 3326727198826637604, guid: 0b88953633527ee46865274cc91a81a3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -530,21 +545,6 @@ PrefabInstance:
         type: 3}
       propertyPath: agent
       value: 
-      objectReference: {fileID: 831460013}
-    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -21.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042598846978448666, guid: 0b88953633527ee46865274cc91a81a3,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.77
       objectReference: {fileID: 0}
     - target: {fileID: 7039701243071531188, guid: 0b88953633527ee46865274cc91a81a3,
         type: 3}
@@ -586,5 +586,10 @@ PrefabInstance:
       propertyPath: positionToGo.Array.data[1]
       value: 
       objectReference: {fileID: 284032630}
+    - target: {fileID: 3580233747725994493, guid: 0b88953633527ee46865274cc91a81a3,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 326443579}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b88953633527ee46865274cc91a81a3, type: 3}

@@ -7,6 +7,8 @@ public class IAManager : MonoBehaviour
     public static IAManager Instance;
 
     public List<Sc_IACharacter> IAList = new List<Sc_IACharacter>();
+    public List<GameObject> OstageArea = new List<GameObject>();
+
     public float repeatActionInterval = 3f;
     private float timer = 0;
 
