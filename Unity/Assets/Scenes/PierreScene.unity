@@ -183,14 +183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1422565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -313,14 +305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2100472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -443,14 +427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &4453345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -573,14 +549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &8717711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -703,14 +671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &11054982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -833,14 +793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &11551200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -963,14 +915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &16461510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1093,14 +1037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &23143646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1223,14 +1159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &23148164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1353,14 +1281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &27769575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1483,14 +1403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &31477196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1613,14 +1525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &31633593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1743,14 +1647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &36020860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1873,14 +1769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &36271513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2003,14 +1891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &45725629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2133,14 +2013,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &49754361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2263,14 +2135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &53252800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2330,18 +2194,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53252796}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &53675792 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114854136086182226, guid: 58d9a4530cb304b458c909a36f80bb04,
-    type: 3}
-  m_PrefabInstance: {fileID: 1398489564}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88f0d4bd12529f040afa9415ac5c703a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &53700531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,14 +2257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &53700535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2535,14 +2379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &53900741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2665,14 +2501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &58381987
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2795,14 +2623,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &59605036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2925,14 +2745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &72613500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3055,14 +2867,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &74905300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3185,14 +2989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &80989048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3315,14 +3111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &82716522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3445,14 +3233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &82998050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3575,14 +3355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &88036396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3705,14 +3477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &89117249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3835,14 +3599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &98520926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3965,14 +3721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &99495970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4095,14 +3843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &100759674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4291,14 +4031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &102898204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4421,14 +4153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &111129817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4551,14 +4275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &111959760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4681,14 +4397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &112294945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4811,14 +4519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &114399220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4941,14 +4641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &116001710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5071,14 +4763,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &118210873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5201,14 +4885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &119632211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5404,14 +5080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &131240655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5534,14 +5202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &132273938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5664,14 +5324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &142405042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5794,14 +5446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &146751043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5924,14 +5568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &148705308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6054,14 +5690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &151093532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6184,14 +5812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &156651181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6314,14 +5934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &160177453
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6444,14 +6056,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &163696106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6574,14 +6178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &165566284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6704,14 +6300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &169434967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6834,14 +6422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &169818509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6964,14 +6544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &170402574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7094,14 +6666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &176881523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7224,14 +6788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &177747240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7354,14 +6910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &184664740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7484,14 +7032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &185028509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7614,14 +7154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &192906119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7744,14 +7276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &210533046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7874,14 +7398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &211790687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8004,14 +7520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &211966531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8134,14 +7642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &223229933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8264,14 +7764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &233396370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8394,14 +7886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &244911122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8524,14 +8008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &256100226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8654,14 +8130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &260305269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9021,14 +8489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &272483656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9151,14 +8611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &272590637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9281,14 +8733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &277281153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9411,14 +8855,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &281594845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9541,14 +8977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &281720168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9671,14 +9099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &294988575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9801,14 +9221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &303742905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9931,14 +9343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &313699638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10061,14 +9465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &319114757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10191,14 +9587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &320218876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10553,14 +9941,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &343220176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10683,14 +10063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &347236454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10813,14 +10185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &350915875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10943,14 +10307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &352749342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11073,14 +10429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &361887491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11203,14 +10551,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &365196541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11333,14 +10673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &366119735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11463,14 +10795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &370676217
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11593,14 +10917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &371456569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11723,14 +11039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &372554838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11853,14 +11161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &375608765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11983,14 +11283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &395330030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12113,14 +11405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &411195216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12243,14 +11527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &411881501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12373,14 +11649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &419840789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12580,14 +11848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &422830455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12710,14 +11970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &425622033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12840,14 +12092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &427467529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12970,14 +12214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &436426158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13100,14 +12336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &438587654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13230,14 +12458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &445067753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13360,14 +12580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &461906599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13490,14 +12702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &464175790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13620,14 +12824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &474293494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13750,14 +12946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &481734879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13880,14 +13068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &481970608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14010,14 +13190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &488261076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14140,14 +13312,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &492797140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14270,14 +13434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &493599552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14400,14 +13556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &504636009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14530,14 +13678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &509208952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14660,14 +13800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &518119426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14790,14 +13922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &520672480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14920,14 +14044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &524167441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15050,14 +14166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &529786200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15180,14 +14288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &532952041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15310,14 +14410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &536579711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15440,14 +14532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &542056859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15570,14 +14654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &543706539
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15700,14 +14776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &545411515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15830,14 +14898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &551177214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15960,14 +15020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &551887400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16090,14 +15142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &555403255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16220,14 +15264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &560306923
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16350,14 +15386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &564887655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16480,14 +15508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &571368289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16610,14 +15630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &571445595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16740,14 +15752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &572655159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16870,14 +15874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &576573286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17091,14 +16087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &580852169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17221,14 +16209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &583404438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17351,14 +16331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &587468566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17481,14 +16453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &593347291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17611,14 +16575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &599425443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17741,14 +16697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &602319670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17871,14 +16819,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &613251048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18001,14 +16941,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &615501027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18131,14 +17063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &618733819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18493,14 +17417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &620029224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18623,14 +17539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &623477131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18753,14 +17661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &635423349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18883,14 +17783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &642482639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19013,14 +17905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &648232588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19143,14 +18027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &652264470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19273,14 +18149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &654734416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19403,14 +18271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &662162129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19533,14 +18393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &666621568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19663,14 +18515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &667799974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19793,14 +18637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &676974766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19923,14 +18759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &687712642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20053,14 +18881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &697930469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20183,14 +19003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &698374735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20313,14 +19125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &699587041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20607,14 +19411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &707233451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20737,14 +19533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &708502120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20867,14 +19655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &723225714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20997,14 +19777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &727617210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21127,14 +19899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &732837262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21257,14 +20021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &735871587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21387,14 +20143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &743768961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21517,14 +20265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &745433323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21647,14 +20387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &751947499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21777,14 +20509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &755899038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21907,14 +20631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &758754392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22037,14 +20753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &760839830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22167,14 +20875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &767310229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22297,14 +20997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &771965023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22427,14 +21119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &772419979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22557,14 +21241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &776103844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22687,14 +21363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &778970469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22817,14 +21485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &809179508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22947,14 +21607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &809871274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23077,14 +21729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &810937361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23207,14 +21851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &828895126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23337,14 +21973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &834068527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23467,14 +22095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &837743554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23597,14 +22217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &838130745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23727,14 +22339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &845894715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23857,14 +22461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &847850130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23924,6 +22520,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847850126}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &852179766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409561656101, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852179767}
+  - component: {fileID: 852179768}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &852179767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409561656100, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852179766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187649450}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &852179768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409561656103, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852179766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa482c3b06a42043989321cde55169b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputController: {fileID: 1514973732}
+  cam: {fileID: 963194227}
+  selectedPlayer: {fileID: 0}
+  TickPerTileSpeed: 1
 --- !u!1 &854428382
 GameObject:
   m_ObjectHideFlags: 0
@@ -23987,14 +22633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &854428386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24117,14 +22755,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &866860078
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24247,14 +22877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &879830822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24377,14 +22999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &886189535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24507,14 +23121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &887394327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24637,14 +23243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &887738628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24767,14 +23365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &892360845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24897,14 +23487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &893811667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25027,14 +23609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &894114861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25157,14 +23731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &896453801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25224,53 +23790,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896453797}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &897511431 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1234773310826446, guid: bd1085cc3cc1fed469538d03d93adbd8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1437560084}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &897511434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897511431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 446632ff30dfb9c4380fa71ff65cc11e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &897511435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897511431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 1
-  m_DefaultArea: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 1c7b244f3cf3c7f49bb1cf694c048933, type: 2}
 --- !u!1 &917524380
 GameObject:
   m_ObjectHideFlags: 0
@@ -25334,14 +23853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &917524384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25496,14 +24007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &925020398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25626,14 +24129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &928567982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25756,14 +24251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &930457372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25886,14 +24373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &930653212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26016,14 +24495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &930721893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26178,14 +24649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &936461723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26308,14 +24771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &941148090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26438,14 +24893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &948589761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26568,14 +25015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &954957102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26698,14 +25137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &959827356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26962,14 +25393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &978762007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27092,14 +25515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &979541253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27222,14 +25637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &994753782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27352,14 +25759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &997531173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27482,14 +25881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1003013497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27549,6 +25940,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003013493}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1006477421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409594795339, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006477422}
+  - component: {fileID: 1514973732}
+  m_Layer: 0
+  m_Name: InputController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1006477422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409594795338, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006477421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187649450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019853592
 GameObject:
   m_ObjectHideFlags: 0
@@ -27612,14 +26036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1019853596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27742,14 +26158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1022899274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27872,14 +26280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1023808175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28002,14 +26402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1031989080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28132,14 +26524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1034591137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28262,14 +26646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1036394980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28392,14 +26768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1058390587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28522,14 +26890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1075892626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28652,14 +27012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1083290725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28782,14 +27134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1085512123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28912,14 +27256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1087160450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29042,14 +27378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1098980693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29172,14 +27500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1108488312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29302,14 +27622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1113169675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29432,14 +27744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1115489231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29562,14 +27866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1118615737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29692,14 +27988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1129512118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29822,14 +28110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1147474245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29952,14 +28232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1150990177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30082,14 +28354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1151555239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30212,14 +28476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1153661414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30342,14 +28598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1159607578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30472,14 +28720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1170995906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30602,14 +28842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1174752552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30732,14 +28964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1177055242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30862,14 +29086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1180462793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30992,14 +29208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1180622005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31122,14 +29330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1186061077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31252,14 +29452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1187568002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31319,6 +29511,107 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187567998}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1187649446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899408037781358, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187649450}
+  - component: {fileID: 1187649449}
+  - component: {fileID: 1187649448}
+  - component: {fileID: 1187649447}
+  m_Layer: 0
+  m_Name: GameInstance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1187649447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899408037781346, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187649446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 23800000, guid: 1c7b244f3cf3c7f49bb1cf694c048933, type: 2}
+--- !u!114 &1187649448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899408037781347, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187649446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446632ff30dfb9c4380fa71ff65cc11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1187649449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899408037781344, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187649446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581505520a7246a4398d7eef333b82dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WallPrefab: {fileID: 1997135797365634, guid: 295134a2ca5d0b748abd933e01ae9c8d, type: 3}
+  FreePrefab: {fileID: 1214944879021386, guid: a1a586269b311724b83e8635e5e6c6fa, type: 3}
+  PlayerPrefab: {fileID: 1135487730203022, guid: c2a767318fb6b004e96c2747fea1931a,
+    type: 3}
+  IAPrefab: {fileID: 1135487730203022, guid: 6620c699e4103b74e84e8eaa441f47e2, type: 3}
+  clock: {fileID: 0}
+  navMeshSurface: {fileID: 1187649447}
+--- !u!4 &1187649450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187649446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.17, y: 5.25, z: 13.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1006477422}
+  - {fileID: 852179767}
+  - {fileID: 2009568624}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1188622379
 GameObject:
   m_ObjectHideFlags: 0
@@ -31382,14 +29675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1188622383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31512,14 +29797,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1191557704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31642,14 +29919,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1194980237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31772,14 +30041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1201005347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31902,14 +30163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1201370240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32032,14 +30285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1208229090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32162,14 +30407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1223750693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32292,14 +30529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1224392336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32422,14 +30651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1225321514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32552,14 +30773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1225346772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32682,14 +30895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1231168977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32812,14 +31017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1234187069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32942,14 +31139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1240322543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33072,14 +31261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1249042311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33202,14 +31383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1249109789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33332,14 +31505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1249126286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33462,14 +31627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1250597776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33592,14 +31749,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1260444513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33722,14 +31871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1273724622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33852,14 +31993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1275122486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33982,14 +32115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1276565239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34112,14 +32237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1277069013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34242,14 +32359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1286688316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34372,14 +32481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1294291995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34502,14 +32603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1296106502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34632,14 +32725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1298276754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34762,14 +32847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1299507226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34892,14 +32969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1301070111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35022,14 +33091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1306798080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35258,14 +33319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1353172922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35388,14 +33441,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1368678351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35518,14 +33563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1381886395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35648,14 +33685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1392067422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35715,63 +33744,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392067418}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1398489564
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1479410336}
-    m_Modifications:
-    - target: {fileID: 1387476886584566, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_Name
-      value: Clock
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4915923990474282, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 58d9a4530cb304b458c909a36f80bb04, type: 3}
 --- !u!1 &1398883608
 GameObject:
   m_ObjectHideFlags: 0
@@ -35835,14 +33807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1398883612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35965,14 +33929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1399542607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36095,14 +34051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1403728124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36225,14 +34173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1410412032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36355,14 +34295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1422915948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36485,14 +34417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1424713543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36615,14 +34539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1424715675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36745,14 +34661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1434802026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36875,14 +34783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1435339132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36942,73 +34842,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435339128}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1437560084
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1234773310826446, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_Name
-      value: GameInstance
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 13.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114010521194120620, guid: bd1085cc3cc1fed469538d03d93adbd8,
-        type: 3}
-      propertyPath: clock
-      value: 
-      objectReference: {fileID: 53675792}
-    - target: {fileID: 114010521194120620, guid: bd1085cc3cc1fed469538d03d93adbd8,
-        type: 3}
-      propertyPath: navMeshSurface
-      value: 
-      objectReference: {fileID: 897511435}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bd1085cc3cc1fed469538d03d93adbd8, type: 3}
 --- !u!1 &1438251424
 GameObject:
   m_ObjectHideFlags: 0
@@ -37072,14 +34905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1438251428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37202,14 +35027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1459864979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37332,14 +35149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1463025798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37462,14 +35271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1463305581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37592,14 +35393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1469695672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37722,14 +35515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1476142171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37789,59 +35574,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476142167}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1479410336 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4769286211904548, guid: bd1085cc3cc1fed469538d03d93adbd8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1437560084}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1481798732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1481798733}
-  - component: {fileID: 1481798734}
-  m_Layer: 0
-  m_Name: PlayerManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1481798733
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481798732}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1479410336}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1481798734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481798732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa482c3b06a42043989321cde55169b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InputController: {fileID: 1514973732}
-  cam: {fileID: 963194227}
-  selectedPlayer: {fileID: 0}
-  TickPerTileSpeed: 1
 --- !u!1 &1488959996
 GameObject:
   m_ObjectHideFlags: 0
@@ -37905,14 +35637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1488960000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38035,14 +35759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1489019684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38382,14 +36098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1503467393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38449,44 +36157,14 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503467389}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1514973730
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514973731}
-  - component: {fileID: 1514973732}
-  m_Layer: 0
-  m_Name: InputController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514973731
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514973730}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1479410336}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1514973732
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6455899409594795341, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6455899408893603689}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514973730}
+  m_GameObject: {fileID: 1006477421}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2887c822358371c488898b6e63fcbeb6, type: 3}
@@ -38564,14 +36242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1518604574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38694,14 +36364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1521124868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38824,14 +36486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1522993388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38954,14 +36608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1530473962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39084,14 +36730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1539935895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39214,14 +36852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1546220062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39344,14 +36974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1548001603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39474,14 +37096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1552931701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39634,14 +37248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1558876717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39764,14 +37370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1559672005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39894,14 +37492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1561110431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40024,14 +37614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1565003597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40154,14 +37736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1567555719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40284,14 +37858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1574584554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40414,14 +37980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1579369529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40544,14 +38102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1584898204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40674,14 +38224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1585349099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40804,14 +38346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1588771796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40934,14 +38468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1594218690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41064,14 +38590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1600706834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41194,14 +38712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1611855185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41324,14 +38834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1618848829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41454,14 +38956,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1624767342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41658,14 +39152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1636547496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41788,14 +39274,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1638977536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41918,14 +39396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 11
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1641943007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42048,14 +39518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1642895778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42178,14 +39640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1655235343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42308,14 +39762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1656890153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42438,14 +39884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1665102281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42568,14 +40006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1670563438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42698,14 +40128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1673406395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42828,14 +40250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1677459173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42958,14 +40372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1684526570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43088,14 +40494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1685188154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43218,14 +40616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1690276541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43348,14 +40738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1690841563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43478,14 +40860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1697680645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43608,14 +40982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1703821063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43738,14 +41104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1706200356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43868,14 +41226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1707744115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43998,14 +41348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1714036611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44128,14 +41470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1717879362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44258,14 +41592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1727410150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44388,14 +41714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1729140935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44518,14 +41836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 11
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1729703259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44648,14 +41958,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1731663145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44778,14 +42080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1731829628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44958,14 +42252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1748690142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45088,14 +42374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1749826087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45218,14 +42496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1752495831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45348,14 +42618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1790684872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45478,14 +42740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1798700795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45682,14 +42936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1808926075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45812,14 +43058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1810241385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45942,14 +43180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1812426088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46072,14 +43302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1814871994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46202,14 +43424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1826323396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46332,14 +43546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1830654729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46705,14 +43911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1836559087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46835,14 +44033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1839447756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46965,14 +44155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1844513712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47095,14 +44277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1845453447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47225,14 +44399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1855304574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47355,14 +44521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1856655906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47485,14 +44643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1866575653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47615,14 +44765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1874673150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47745,14 +44887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 20
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1886844978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47875,14 +45009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1888581500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48005,14 +45131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1899890330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48135,14 +45253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 14
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1908215832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48265,14 +45375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1911469716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48395,14 +45497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1922600598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48555,14 +45649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 5
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1934091322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48685,14 +45771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 19
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1940075369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48815,14 +45893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 17
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1940128541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48945,14 +46015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1940316761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49075,14 +46137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1948633910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49205,14 +46259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1950932927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49335,14 +46381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1962063047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49465,14 +46503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1965820085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49595,14 +46625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 15
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1966601728
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49725,14 +46747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1968448517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49855,14 +46869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 18
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1972001699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49985,14 +46991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1972091405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50115,14 +47113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1980377933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50245,14 +47235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 20
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1981359252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50375,14 +47357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1983079172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50505,14 +47479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 18
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &1996250516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50635,14 +47601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2007471175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50702,6 +47660,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007471171}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2009568623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009568624}
+  - component: {fileID: 2009568625}
+  m_Layer: 0
+  m_Name: IAManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009568624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009568623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187649450}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2009568625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009568623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d661f87e6ec05d64681bde17da2d7e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IAList: []
+  repeatActionInterval: 3
 --- !u!1 &2018080531
 GameObject:
   m_ObjectHideFlags: 0
@@ -50765,14 +47768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 6
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2018080535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50895,14 +47890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 6
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2018868692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51025,14 +48012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 10
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2027659846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51155,14 +48134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2029837978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51285,14 +48256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 13
-  column: 15
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2031530356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51415,14 +48378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 16
-  column: 3
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2050802163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51545,14 +48500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2051544393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51675,14 +48622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 3
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2060584707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51805,14 +48744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2065799488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51935,14 +48866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 2
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2068326048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52065,14 +48988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2068951751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52195,14 +49110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 1
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2070388591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52325,14 +49232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 4
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2076997516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52455,14 +49354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2086040124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52585,14 +49476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2090986376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52715,14 +49598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 1
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2094015795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52845,14 +49720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2098303278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52975,14 +49842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 13
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2104833179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53105,14 +49964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 8
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2105059814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53235,14 +50086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2105135219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53365,14 +50208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 4
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2110788970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53495,14 +50330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 9
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2111203311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53625,14 +50452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 14
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2112805050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53755,14 +50574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 17
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2113295209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53885,14 +50696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 19
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2113762244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54015,14 +50818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 9
-  column: 12
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2117324759
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54145,14 +50940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 7
-  column: 5
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2127851637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54275,14 +51062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 8
-  column: 7
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2134162196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54405,14 +51184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab921a89047dc840aaaa87d048131ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 2
-  column: 16
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2139034365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54535,14 +51306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 12
-  column: 10
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!65 &2141542504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54739,3 +51502,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb63f53ad9b4ba04ca0716f8e04380a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &6455899408893603689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6455899408037781358, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_Name
+      value: GameInstance
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899409567706569, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455899408037781344, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: IAPrefab
+      value: 
+      objectReference: {fileID: 1135487730203022, guid: 6620c699e4103b74e84e8eaa441f47e2,
+        type: 3}
+    - target: {fileID: 6455899409561656103, guid: 1f10cabb8a8304145b6f867e3173f4b5,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 963194227}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f10cabb8a8304145b6f867e3173f4b5, type: 3}

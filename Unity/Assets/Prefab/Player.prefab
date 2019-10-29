@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 95597088678129114}
   - component: {fileID: 136348337939039200}
   - component: {fileID: 54138323608213760}
-  - component: {fileID: 114053844862557800}
   - component: {fileID: -4362874601815841982}
-  - component: {fileID: 3685240802735724839}
+  - component: {fileID: 4571570725775537732}
+  - component: {fileID: 7638905937713504520}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -86,22 +86,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114053844862557800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135487730203022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e1d6a53622bc554fbd9bb5eea9dd34b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1135487730203022}
-  highlightedColor: {r: 1, g: 0.92445683, b: 0, a: 1}
-  selectedColor: {r: 1, g: 0, b: 0, a: 1}
-  playerTile: {fileID: 0}
 --- !u!195 &-4362874601815841982
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -124,7 +108,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3685240802735724839
+--- !u!114 &4571570725775537732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135487730203022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c16667fbb56174fb0c80d11ed65399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  highlightedColor: {r: 1, g: 0.94165385, b: 0, a: 0.41960785}
+  selectedColor: {r: 1, g: 0, b: 0, a: 0.60784316}
+  highlighted: 0
+  isSelected: 0
+  playerTile: {fileID: 0}
+--- !u!114 &7638905937713504520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135487730203022}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Script: {fileID: 11500000, guid: ce034443365bab140a156abe6ce4f5a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
@@ -199,7 +201,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2ae03be527c7e7048862bae4247e7dda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

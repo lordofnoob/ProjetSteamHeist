@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class IAManager : MonoBehaviour
 {
-    IAManager Instance;
+    public static IAManager Instance;
 
     public List<Sc_IACharacter> IAList = new List<Sc_IACharacter>();
+    public float repeatActionInterval = 3f;
+    private float timer = 0;
 
     void Awake()
     {
@@ -16,6 +18,14 @@ public class IAManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(timer >= repeatActionInterval)
+        {
+            foreach(Sc_IACharacter IACharacter in IAList)
+            {
+                IACharacter.RandomMovement();
+            }
+            timer = 0f;
+        }
+        timer += Time.deltaTime;
     }
 }

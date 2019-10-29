@@ -62,11 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
-    <Compile Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
-    <Compile Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-    <Compile Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
-    <Compile Include="Assets\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\Plug-in &amp; package\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets\Plug-in &amp; package\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+    <Compile Include="Assets\Plug-in &amp; package\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+    <Compile Include="Assets\Plug-in &amp; package\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+    <Compile Include="Assets\Plug-in &amp; package\NavMesh-Tutorial-master\NavMesh Example Project\Assets\Example05 - LowMan\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>D:/ProjetSteamHeist/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -294,6 +294,9 @@
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>D:/ProjetSteamHeist/Unity/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/Unity Project/ProjetSteamHeist/Unity/Assets/Plug-in &amp; package/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/ProjetSteamHeist/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

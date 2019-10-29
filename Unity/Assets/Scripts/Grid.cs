@@ -44,6 +44,18 @@ public class Grid : MonoBehaviour
                         player.GetComponent<Player>().playerTile = newTile;
                         freeTiles.Add(newTile);
                         break;
+
+                    case "IA":
+                        GameObject newFreeIA = Instantiate(LevelManager.Instance.FreePrefab, position, new Quaternion(0f, 0f, 0f, 0f), GameObject.Find("Tile").transform);
+                        newTile = newFreeIA.GetComponent<Free>();
+                        newTile.row = row;
+                        newTile.column = column;
+                        //Spawn player
+                        GameObject IA = Instantiate(LevelManager.Instance.IAPrefab, new Vector3(position.x, 0.5f, position.z), new Quaternion(0f, 0f, 0f, 0f));
+                        IA.GetComponent<Sc_IACharacter>().IATile = newTile;
+                        IAManager.Instance.IAList.Add(IA.GetComponent<Sc_IACharacter>());
+                        freeTiles.Add(newTile);
+                        break;
                 }
 
                 SetTileInTilemap(newTile, row, column);

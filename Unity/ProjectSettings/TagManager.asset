@@ -6,7 +6,11 @@ TagManager:
   tags:
   - mur
   - Tile
+<<<<<<< HEAD
   - Trial
+=======
+  - IA
+>>>>>>> master
   layers:
   - Default
   - TransparentFX

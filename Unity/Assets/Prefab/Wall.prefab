@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 33878402175888816}
   - component: {fileID: 23691042456720532}
   - component: {fileID: 65674349208408934}
-  - component: {fileID: 114353337614512000}
   - component: {fileID: -4780213482630193181}
-  - component: {fileID: 2221858900451399833}
+  - component: {fileID: 1993787672083936316}
+  - component: {fileID: 343077278710418383}
   m_Layer: 10
   m_Name: Wall
   m_TagString: mur
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6b8894dc9a3a2246ad53bb456a8d442, type: 2}
+  - {fileID: 2100000, guid: 247fac4328fcc194bbe29964e9f6bea3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,26 +95,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114353337614512000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997135797365634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d39ed1f5ca8c2e459401b58d3c4973a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  outlined: 0
-  row: 0
-  column: 0
-  StraightLineDistanceToEnd: 0
-  MinCostToStart: 0
-  Visited: 0
-  previous: {fileID: 0}
 --- !u!114 &-4780213482630193181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +111,27 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!114 &2221858900451399833
+--- !u!114 &1993787672083936316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997135797365634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbc145457dce6e40827a9e87dfc473b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  outlined: 0
+  row: 0
+  column: 0
+  StraightLineDistanceToEnd: 0
+  MinCostToStart: 0
+  Visited: 0
+  previous: {fileID: 0}
+--- !u!114 &343077278710418383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1997135797365634}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Script: {fileID: 11500000, guid: ce034443365bab140a156abe6ce4f5a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
