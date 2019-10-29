@@ -12,7 +12,7 @@ public class Mb_Trial : MonoBehaviour
     [Header("Interface")]
     public Image timeVignet;
     //A rechanger en private
-    public List<Player> listOfUser;
+    public List<Player> listOfUser= new List<Player>();
 
    
     private float currentTimeSpentOn=0;
@@ -30,6 +30,9 @@ public class Mb_Trial : MonoBehaviour
     {
         foreach (Player player in listOfUser)
         {
+            Debug.Log(player.characterProperty);
+            int length = player.characterProperty.characterSkills.Length;
+            Debug.Log(length);
             for (int i = 0; i < player.characterProperty.characterSkills.Length; i++)
                 for (int y=0; y < trialParameters.skillToUse.Length; y++)
                     if(player.characterProperty.characterSkills[i] == trialParameters.skillToUse[y].associatedSkill)
@@ -47,7 +50,7 @@ public class Mb_Trial : MonoBehaviour
         }
 
         finalTimeToSpendOn = trialParameters.timeToAccomplishTrial* definitiveModifier;
-        Debug.Log(finalTimeToSpendOn);
+        
         currentTimeSpentOn = 0;
         counting = true;
     }

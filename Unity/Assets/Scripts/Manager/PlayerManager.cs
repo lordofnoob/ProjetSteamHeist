@@ -67,14 +67,18 @@ public class PlayerManager : MonoBehaviour
                     Vector3 positionToAccomplishDuty = Vector3.zero;
 
                     Mb_Trial  targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
-                    if (targetTrial.listOfUser.Count > 0)
-                    {
-                        positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
-                    }
+
+                    if (targetTrial.listOfUser.Count>0)
+                        for (int i =0; i< targetTrial.listOfUser.Count; i++)
+                        {
+                            if (targetTrial.listOfUser[i] != selectedPlayer)
+                            {
+                                positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+                            }
+                        }
                     else
-                    {
-                        positionToAccomplishDuty = targetTrial.positionToGo[0].position;
-                    }
+                        positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+
                     selectedPlayer.MovePlayer(positionToAccomplishDuty);
                     selectedPlayer.SetNextInteraction(targetTrial);
                 }

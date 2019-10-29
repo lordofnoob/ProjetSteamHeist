@@ -36,18 +36,12 @@ public class Player : MonoBehaviour {
     }
 
     public Tile playerTile;
-
+    public StateOfAction state;
     // nextInteractionToussa
     private Vector3 positionToGo;
     float distanceRemaining;
     Mb_Trial onGoingInteraction;
 
-	void Start () 
-    {
-
-	}
-
-    // Update is called once per fraWe
     void Update () 
     {
         CheckingDistance();
@@ -89,6 +83,7 @@ public class Player : MonoBehaviour {
 
     public void MovePlayer(Vector3 endPos)
     {
+        state = StateOfAction.Moving;
         agent.SetDestination(endPos);
         //uniquement pour la next interaction n influe pas sur le deplacement whatsoever
         positionToGo = endPos;
@@ -96,16 +91,21 @@ public class Player : MonoBehaviour {
 
     public void Interact()
     {
-        onGoingInteraction.listOfUser.Add(player);
-        onGoingInteraction.StartInteracting();
-    }
-
-    void CheckingDistance()
-    {
-        if (Vector3.Distance(transform.position, positionToGo) <= agent.stoppingDistance && onGoingInteraction !=null)
+        state = StateOfAction.Interacting;
+        if (onGoingInteraction.listOfUser.Count==0)
         {
-            Interact();
+            onGoingInteraction.listOfUser.Add(player);
+            onGoingInteraction.StartInteracting();
         }
+        else
+            for (int i =0; i<onGoingInteraction.listOfUser.Count; i++)
+            {
+                if (onGoingInteraction.listOfUser[i] != player)
+                {
+                    onGoingInteraction.listOfUser.Add(player);
+                    onGoingInteraction.StartInteracting();
+                }
+            }
     }
 
     public void ResetInteractionParameters()
@@ -115,11 +115,22 @@ public class Player : MonoBehaviour {
         positionToGo = transform.position;
     }
 
+    void CheckingDistance()
+    {
+        if (Vector3.Distance(transform.position, positionToGo) <= agent.stoppingDistance && onGoingInteraction != null && state == StateOfAction.Moving)
+        {
 
-
+            Interact();
+        }
+    }
 
     public void SetNextInteraction(Mb_Trial trialToUse)
     {
         onGoingInteraction = trialToUse;
+    }
+
+    public enum StateOfAction
+    {
+        Moving, Interacting, Captured, Idle
     }
 }

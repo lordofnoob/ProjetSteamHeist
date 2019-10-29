@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: 
   characterPortrait: {fileID: 0}
+  surveillanceLimit: 0
   speed: 5
-  characterSkills: 0300000003000000
+  characterSkills: 0000000003000000
