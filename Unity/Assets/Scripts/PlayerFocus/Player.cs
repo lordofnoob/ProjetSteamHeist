@@ -86,10 +86,11 @@ public class Player : MonoBehaviour {
         outline.enabled = enabled;
     }
 
-    public void MovePlayer(Vector3 endPos)
+    public void MovePlayer(Vector3 endPos, float stopDistance)
     {
         state = StateOfAction.Moving;
         agent.SetDestination(endPos);
+        agent.stoppingDistance = stopDistance;
         //uniquement pour la next interaction n influe pas sur le deplacement whatsoever
         positionToGo = endPos;
     }

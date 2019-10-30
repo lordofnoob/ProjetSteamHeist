@@ -15,15 +15,18 @@ public class UIManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
-
-
-
     }
-
-
 
     void Update()
     {
-        
+        UpdateHostageStressBar();
+    }
+
+    void UpdateHostageStressBar()
+    {
+        foreach(Sc_IAHostage hostage in IAManager.Instance.IAList)
+        {
+            hostage.stressBar.fillAmount = hostage.stress;
+        }
     }
 }

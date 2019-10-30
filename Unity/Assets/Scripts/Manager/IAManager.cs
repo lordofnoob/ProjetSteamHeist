@@ -29,6 +29,7 @@ public class IAManager : MonoBehaviour
             timer = 0f;
         }
         timer += Time.deltaTime;*/
+        UpdateHostageStress();
     }
 
     public void IAHostageFollowingPlayer(Sc_IAHostage hostage, Player p)
@@ -61,5 +62,13 @@ public class IAManager : MonoBehaviour
         foreach(Sc_IAHostage stockedHostege in stockedHosteges)
             hostages.Remove(stockedHostege);
         
+    }
+
+    void UpdateHostageStress()
+    {
+        foreach(Sc_IAHostage hostage in IAList)
+        {
+            hostage.stress += Random.Range(0.01f, 0.1f) * Time.deltaTime;
+        }
     }
 }

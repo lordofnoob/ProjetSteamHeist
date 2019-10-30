@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public enum HostageState
 {
@@ -12,6 +13,8 @@ public enum HostageState
 
 public class Sc_IAHostage : Mb_Trial
 {
+    public float stress = 0f; //Percentage
+    public Image stressBar;
 
     public NavMeshAgent agent;
     public float trialsAreaSize = 5f;

@@ -66,7 +66,7 @@ public class PlayerManager : MonoBehaviour
                     }
 
 
-                    selectedPlayer.MovePlayer(gridPos);
+                    selectedPlayer.MovePlayer(gridPos, 0f);
                     selectedPlayer.state = Player.StateOfAction.Moving;
                 }
                 else if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null && selectedPlayer.state != Player.StateOfAction.Captured && selectedPlayer.state!= Player.StateOfAction.Interacting)
@@ -86,7 +86,7 @@ public class PlayerManager : MonoBehaviour
                         else
                             positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
 
-                        selectedPlayer.MovePlayer(positionToAccomplishDuty);
+                        selectedPlayer.MovePlayer(positionToAccomplishDuty, 2f);
                         selectedPlayer.SetNextInteraction(targetTrial);
                     }
                     
@@ -99,7 +99,7 @@ public class PlayerManager : MonoBehaviour
 
     public void SelectPlayer(Player p)
     {
-        Debug.Log("SELECT PLAYER");
+        //Debug.Log("SELECT PLAYER");
         if (selectedPlayer != null)
             selectedPlayer.IsSelected = false;
         selectedPlayer = p;
@@ -108,9 +108,12 @@ public class PlayerManager : MonoBehaviour
 
     public void DeselectPlayer()
     {
-        Debug.Log("DESELECT PLAYER");
-        selectedPlayer.IsSelected = false;
-        selectedPlayer = null;
+        if(selectedPlayer != null)
+        {
+            //Debug.Log("DESELECT PLAYER");
+            selectedPlayer.IsSelected = false;
+            selectedPlayer = null;
+        }
     }
 
 

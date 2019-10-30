@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Sc_InputController : MonoBehaviour
 {
@@ -28,6 +29,12 @@ public class Sc_InputController : MonoBehaviour
         RightClick = Input.GetMouseButtonDown(1);
         MiddleClick = Input.GetMouseButtonDown(2);
 
+
+        if(Input.GetKey(KeyCode.U) && Input.GetKey(KeyCode.V))
+        {
+            //Debug.Log("RESET");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 
         // MOUSE POS
         mousePosition = Input.mousePosition;
