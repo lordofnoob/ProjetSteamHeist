@@ -118,4 +118,14 @@ public class Mb_Trial : MonoBehaviour
 
         finalTimeToSpendOn = trialParameters.timeToAccomplishTrial;
     }
+
+    public void QuittingCheck()
+    {
+        if (listOfUser.Count != 0)
+        {
+            ReUpduateTiming();
+        }
+        else
+            ResetValues();
+    }
 }

@@ -58,29 +58,38 @@ public class PlayerManager : MonoBehaviour
                     Vector3 gridPos = Vector3.zero;
                     gridPos.x = Mathf.Floor(hit.point.x / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
                     gridPos.z = Mathf.Floor(hit.point.z / LevelManager.Instance.FreePrefab.transform.localScale.x) * LevelManager.Instance.FreePrefab.transform.localScale.x;
+                    if (selectedPlayer.onGoingInteraction != null)
+                    {
+                        selectedPlayer.onGoingInteraction.listOfUser.Remove(selectedPlayer);
+                        selectedPlayer.onGoingInteraction.QuittingCheck();
+                        selectedPlayer.onGoingInteraction = null;
+                    }
+
 
                     selectedPlayer.MovePlayer(gridPos);
                     selectedPlayer.state = Player.StateOfAction.Moving;
                 }
                 else if (hit.transform.CompareTag("Trial")  && selectedPlayer !=null && selectedPlayer.state != Player.StateOfAction.Captured && selectedPlayer.state!= Player.StateOfAction.Interacting)
                 {
-                    Vector3 positionToAccomplishDuty = Vector3.zero;
-
-                    Mb_Trial  targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
-
-                    if (targetTrial.listOfUser.Count>0)
-                        for (int i =0; i< targetTrial.listOfUser.Count; i++)
-                        {
-                            if (targetTrial.listOfUser[i] != selectedPlayer)
+                    Mb_Trial targetTrial = hit.transform.gameObject.GetComponent<Mb_Trial>();
+                    if (selectedPlayer.onGoingInteraction != targetTrial)
+                    {
+                        Vector3 positionToAccomplishDuty = Vector3.zero;
+                        if (targetTrial.listOfUser.Count > 0)
+                            for (int i = 0; i < targetTrial.listOfUser.Count; i++)
                             {
-                                positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+                                if (targetTrial.listOfUser[i] != selectedPlayer)
+                                {
+                                    positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+                                }
                             }
-                        }
-                    else
-                        positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
+                        else
+                            positionToAccomplishDuty = targetTrial.positionToGo[targetTrial.listOfUser.Count].position;
 
-                    selectedPlayer.MovePlayer(positionToAccomplishDuty);
-                    selectedPlayer.SetNextInteraction(targetTrial);
+                        selectedPlayer.MovePlayer(positionToAccomplishDuty);
+                        selectedPlayer.SetNextInteraction(targetTrial);
+                    }
+                    
                 }
             }
             

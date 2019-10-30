@@ -35,12 +35,15 @@ public class Player : MonoBehaviour {
         }
     }
 
+
+    [HideInInspector] public Mb_Trial onGoingInteraction;
+
+
     public Tile playerTile;
     public StateOfAction state;
     // nextInteractionToussa
     private Vector3 positionToGo;
     float distanceRemaining;
-    Mb_Trial onGoingInteraction;
 
     void Update () 
     {
