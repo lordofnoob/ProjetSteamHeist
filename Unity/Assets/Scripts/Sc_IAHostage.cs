@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public enum HostateState
+public enum HostageState
 {
     Free,
     Captured,
@@ -18,7 +18,7 @@ public class Sc_IAHostage : Mb_Trial
 
     public Tile IATile;
 
-    public HostateState state = HostateState.Free;
+    public HostageState state = HostageState.Free;
     public Player target;
 
     // Start is called before the first frame update
@@ -31,7 +31,7 @@ public class Sc_IAHostage : Mb_Trial
     void Update()
     {
         Counting();
-        if (state == HostateState.Captured)
+        if (state == HostageState.Captured)
             FollowTarget();
     }
 
@@ -43,8 +43,8 @@ public class Sc_IAHostage : Mb_Trial
     public override void DoThings()
     {
         //Debug.Log("TARGET CAPTURED");
-        target = listOfUser[0];
-        state = HostateState.Captured;
+        IAManager.Instance.IAHostageFollowingPlayer(this, listOfUser[0]);
+        ResetValues();
     }
 
     void FollowTarget()

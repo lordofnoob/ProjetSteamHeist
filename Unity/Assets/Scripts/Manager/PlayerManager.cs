@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class PlayerManager : MonoBehaviour
 {
-    PlayerManager Instance;
+    public static PlayerManager Instance;
 
     public Sc_InputController InputController;
 
@@ -15,7 +15,7 @@ public class PlayerManager : MonoBehaviour
 
     void Awake()
     {
-
+        Instance = this;
     }
 
     void Update()

@@ -64,7 +64,6 @@ public class Mb_Trial : MonoBehaviour
         if (currentTimeSpentOn > finalTimeToSpendOn)
         {
             DoThings();
-            ResetValues();
         }
 
         timeVignet.fillAmount = currentTimeSpentOn / finalTimeToSpendOn;
@@ -104,7 +103,7 @@ public class Mb_Trial : MonoBehaviour
     public virtual void DoThings()
     {}
 
-    void ResetValues()
+    public void ResetValues()
     {
         counting = false;
         currentTimeSpentOn = 0;
