@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\PlayerFocus\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerFocus\Sc_Chara_Interface.cs" />
     <Compile Include="Assets\Scripts\PlayerFocus\Scriptable_Charaspec.cs" />
+    <Compile Include="Assets\Scripts\SC_HostageStockArea.cs" />
     <Compile Include="Assets\Scripts\Sc_IAHostage.cs" />
     <Compile Include="Assets\Scripts\Sc_InputController.cs" />
     <Compile Include="Assets\Scripts\Tile\Free.cs" />

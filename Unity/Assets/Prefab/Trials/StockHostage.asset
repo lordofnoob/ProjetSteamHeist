@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: StockHostage
   m_EditorClassIdentifier: 
   skillToUse: []
-  timeToAccomplishTrial: 0
+  timeToAccomplishTrial: 2
