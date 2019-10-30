@@ -6,7 +6,7 @@ public class Mb_Door : Mb_Trial
 {
     public Animation door;
 
-    void DoThings()
+    public override void DoThings()
     {
         for (int i = 0; i < listOfUser.Count; i++)
         {
