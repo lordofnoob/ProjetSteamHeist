@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\Mb_Door.cs" />
+    <Compile Include="Assets\Scripts\Mb_PositionCheck.cs" />
     <Compile Include="Assets\Scripts\Outline\Outlines.cs" />
     <Compile Include="Assets\Scripts\PlayerFocus\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerFocus\Sc_Chara_Interface.cs" />

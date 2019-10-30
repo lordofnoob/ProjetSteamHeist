@@ -10,6 +10,8 @@ public class Player : MonoBehaviour {
 	public Player player;
     public Color highlightedColor, selectedColor;
 
+    public List<Sc_IAHostage> capturedHostages = new List<Sc_IAHostage>();
+
     public bool highlighted = false;
     [SerializeField]private bool isSelected = false;
     [SerializeField] NavMeshAgent agent;

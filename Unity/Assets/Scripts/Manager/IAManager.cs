@@ -31,5 +31,35 @@ public class IAManager : MonoBehaviour
         timer += Time.deltaTime;*/
     }
 
+    public void IAHostageFollowingPlayer(Sc_IAHostage hostage, Player p)
+    {
+        hostage.target = p;
+        p.capturedHostages.Add(hostage);
+        hostage.state = HostageState.Captured;
+    }
 
+    public void StockHostagesInArea(SC_HostageStockArea area, List<Sc_IAHostage> hostages)
+    {
+        List<Sc_IAHostage> stockedHosteges = new List<Sc_IAHostage>();
+        foreach(Sc_IAHostage hostage in hostages)
+        {
+            foreach (Transform position in area.hostagesPos)
+            {
+                if (position.GetComponent<Mb_PositionCheck>().dispo)
+                {
+                    position.GetComponent<Mb_PositionCheck>().dispo = false;
+
+                    hostage.state = HostageState.Stocked;                    
+                    hostage.target = null;
+                    stockedHosteges.Add(hostage);
+                    hostage.agent.SetDestination(position.position);
+                    hostage.agent.stoppingDistance = 0f;
+                    break;
+                }
+            }
+        }
+        foreach(Sc_IAHostage stockedHostege in stockedHosteges)
+            hostages.Remove(stockedHostege);
+        
+    }
 }
